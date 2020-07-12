@@ -19,7 +19,7 @@
         else {
           let Img = document.createElement('img')
           Img.src = data.icon
-          Img.width = '200'
+          Img.width = '100'
           messageOne.textContent = data.location
           messageTwo.textContent = data.forecast
           forecastImg.appendChild(Img)
